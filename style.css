@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    margin: 2%;
+    position: sticky;
+    overflow: hidden;
+}
+
+.name {
+    float: left;
+}
+
+nav {
+    float: right;
+    word-spacing: 15%;
+}
+
+#about {
+    margin-top: 3%;
+    padding: 0 5%;
+}
+
+#self {
+    float: right;
+    height: auto;
+    width: 30%;
+    margin-right: 9%;
+    border-radius: 15%;
+}
+
+.bio {
+    width: 45%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    float: left;
+}
+
