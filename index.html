@@ -11,10 +11,10 @@
         <div id='header'>
         <h1 class='name'>Brooke Mars</h1>
         <nav>
-            <h3><a class='about'>About Me / </a>
-            <a class='projects'>Projects / </a>
-            <a class='skills'>Skills / </a>
-            <a class='contact'>Contact</a>
+            <h3><a class='about' href='#about'>About Me / </a>
+            <a class='projects' href='#projects'>Projects / </a>
+            <a class='skills' href='#skills'>Skills / </a>
+            <a class='contact' href='#contact'>Contact</a>
             </h3>
         </nav>
     </div>
@@ -22,7 +22,7 @@
 
     <!--About Me-->
     <div id='about'>
-        <h2>About Me</h2>
+        <h2><u>About Me</u></h2>
             <p class='bio'>My name is Brooke Mars and I am beginning to learn to code with the goal of becoming a full-stack engineer.
                 I am currently following the Codecademy program for this career path and working on it regularly each week.
                 Even though it's a challenge, and all very new to me, it is something I am fully committed to and looking forward to learning more about.
@@ -34,6 +34,63 @@
                  I also have a cat named Francis that keeps me company while coding and loves to sit on my lap while I'm working on projects.
              </p>
     </div>
+
+    <!--Projects-->
+        <h2 class='h2' id='projects'>Projects</h2>
+        <div class='projphoto'>
+
+            <div class='auntiedeedees'>
+                <a href='../auntideedees/index.html'>
+            <img id='auntiedeedees' src='images/auntiedeedees.png' alt='Screenshot of website for VT bakery'>
+                </a>
+            <p class='deedees'>Auntie Dee Dee's Homemade VT Baked Goods</p>
+            </div>
+
+            <div class='lust'>
+                    <a href='../LUST/index.html'>
+                <img id='lust' src='images/LUST.png' alt='Screenshot of website for ladies uphill ski team'>
+                     </a>
+                <p class='ladies'>Ladies Uphill Ski Team</p>
+                </div>
+
+                <div class='teacozy'>
+                    <a href='../teacozy/teacozy/index.html'>
+                    <img id='teacozy' src='images/teacozy.png' alt='Screenshot of website for tea cafe'>
+                     </a>
+                    <p class='tea'>Website Re-Creation for Tea Cafe</p>
+                    </div>
+    </div>
+
+        <!--Skills-->
+        <h2 class='h2' id='skills'>Skills</h2>
+        <div class='skillcont'>
+            <div class='html'>
+                <img id='html' src='images/html logo.png' alt='HTML logo'>
+            </div>
+            <div class='css'>
+            <img id='css' src='images/css3-logo-png-transparent.png' alt='CSS logo'>
+        </div>
+            <div class='js'>
+                <img id='js' src='images/js logo.png' alt='Javascript logo'>
+            </div>
+            </div>
+
+        <!--Contact-->
+        <h2 class='h2' id='contact'>Contact</h2>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="message">Submit message here:</label>
+            <textarea id="message" name="message" rows="4" cols="50">
+            Submit your message here.
+            </textarea><br>
+
+            <button class="button" style="vertical-align:middle"><span>Submit </span></button>
+        </form>
     
 	<script src="script.js"></script>
   </body>

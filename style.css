@@ -17,9 +17,15 @@ nav {
     word-spacing: 15%;
 }
 
+a {
+    color: black;
+}
+
 #about {
     margin-top: 3%;
     padding: 0 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
 }
 
 #self {
@@ -37,3 +43,140 @@ nav {
     float: left;
 }
 
+.h2 {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.projphoto {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 2%;
+    font-size: 1.2rem;
+}
+
+#auntiedeedees {
+    width: 95%;
+    height: auto;
+    border-radius: 15%;
+}
+
+.deedees {
+    text-align: center;
+}
+
+#lust {
+    width: 95%;
+    height: auto;
+    border-radius: 15%;
+}
+
+.ladies {
+    text-align: center;
+}
+
+#teacozy {
+    width: 95%;
+    height: auto;
+    border-radius: 15%;
+}
+
+.tea {
+    text-align: center;
+}
+
+.skillcont {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#css {
+    width: 17%;
+    height: auto;
+    opacity: .9;
+}
+
+#html {
+    width: 20%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#js {
+    width: 17%;
+    height: auto;
+    opacity: .9;
+}
+
+form {
+    margin-left: 25%;
+    margin-right:15%;
+    width: 80%;
+    line-height: 1.2rem;
+}
+
+input {
+    margin-top: 1.2rem;
+    margin-bottom: 5px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:20px
+}
+
+label {
+    display:inline-block;
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 140px;
+    margin-top: 1.2rem;
+}
+
+textarea {
+    margin-top: 1.2rem;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #91cad1;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
